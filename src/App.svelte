@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { waitLocale, t, isLoading } from 'svelte-i18n'
+	import './services/i18n';
   	export async function preload() {
 		return waitLocale('en');
 	  }
